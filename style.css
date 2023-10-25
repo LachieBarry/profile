@@ -1,0 +1,144 @@
+body {
+  background-color: #1b1226;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #f3b140;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #f3b140;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #9d95a1;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.banner_card {
+  background-color: #3B2848;
+  padding: 24px;
+  width: 480px;
+  border-radius: 5px;
+  border: 1px solid #1b1226;
+  box-shadow: 0 0 16px rgba(0,0,0,.15);
+}
+
+.circle_profile {
+  border-radius: 50%;
+  border: 1px solid #1b1226;
+  opacity: 0.5;
+  transition: ease-in-out .5s;
+}
+.circle_profile:hover {
+  opacity: 1;
+}
+
+ul {
+  margin-left: 88px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #9d95a1;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  width: 920px;
+  margin-left: 0px auto;
+  grid-template-columns: 480px 480px;
+}
+
+.grid-container > div {
+  text-align: center;
+  background-color: #3B2848;
+  margin: 12px;
+  margin-top: 0px;
+  padding: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 32px;
+  border-radius: 4px;
+}
+
+.subheadings_card {
+  text-align: center;
+  width: 890px;
+  background-color: #3B2848;
+  margin: 12px;
+  margin-top: 0px;
+  padding: 24px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 112px;
+}
+
+.flex-container > div {
+  margin: 8px;
+  padding: 8px;
+  font-size: 40px;
+  align-self: center;
+}
+
+.small_icons {
+  border-radius: 50%;
+  margin-left: 8px auto;
+  opacity: 1;
+  text-decoration: none;
+  transition: ease-in-out .3s;
+}
+
+.small_icons:hover {
+  opacity: 0.5;
+}
+
+.medium_icons {
+  border-radius: 50%;
+  margin-left: 16px auto;
+  padding: 4px;
+  opacity: 0.6;
+  text-decoration: none;
+  transition: ease-in-out .4s;
+}
+
+.medium_icons:hover {
+  opacity: 1;
+}
+
+.yellow_line {
+  background-color: #f3b140;
+  width: 960;
+  height: 4;
+  margin-bottom: 16;
+  margin-left: 0px;
+  border-radius: 2px;
+  box-shadow: 0 0 16px rgba(0,0,0,.15);
+}
+.grey_line {
+  background-color: #533F58;
+  width: 400;
+  height: 2;
+  align-self: center;
+  border-radius: 2px;
+  box-shadow: 0 0 16px rgba(0,0,0,.15);
+  opacity: 0.8;
+}
+
+.icons_at_bottom {
+  align-self: bottom;
+  height: 80;
+  margin-bottom: 0 auto;
+}
